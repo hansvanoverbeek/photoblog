@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+  <main>
+    <section>
+        <h3 class="text-left more-padding-left-30">Recente foto's met een toelichting</h3>
+        <p class="justify plain-link">
+          Dit is een website voor fotoliefhebbers. Hier staan foto&apos;s die ik graag met u deel. Op deze blogpagina zet ik foto's van situaties die op dat moment mijn interesse opwekten. Onder <a href="{{ site.baseurl}}/portfolio/">portfolio</a> vindt u een paar categorie&euml;n die mij in het bijzonder inspireren. Over wat mij inspireert vertel ik in <a href="{{ site.baseurl}}/about/">About me</a>. Als u een reactie wilt achterlaten of in een foto speciaal ge&iuml;nteresseerd bent,  <a href="{{ site.baseurl}}/contactt/">laat het mij weten</a>.
+        </p>
+        
+        <p class="plain-link">
+          This is a website for photo enthousiasts. Here I like to share my photos with you. On this blogpage I show images of recent situations that caught my interest. Returning themes can found in  <a href="{{ site.baseurl}}/portfolio/">portfolio</a>. My take on photography is in <a href="{{ site.baseurl}}/about/">About me</a>. And I love to get in touch, so you contact me  <a href="{{ site.baseurl}}/contactt/">here</a> if you like.
+        </p>
+    </section>
+
+        <ul id="paginator-posts">
+            {% for post in paginator.posts %}
+              <li class="text-left">
+                <h4>{{post.title}}</h4> {{post.date | date_to_long_string}}
+                <br>
+                <br> {{post.content | truncatewords: 30}}
+                <li class="text-right">
+                    <a href="{{ post.url }}">Read more ...</a>
+                </li>
+                </li>
+                {% endfor %}
+        </ul>
+
+        <!-- Pagination links -->
+        <div class="pagination text-center">
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a> {% else %}
+            <span class="previous">Previous</span> {% endif %}
+            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
+            <span class="next ">Next</span> {% endif %}
+        </div>
+
+</main>
+
+

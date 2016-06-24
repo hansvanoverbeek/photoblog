@@ -1,0 +1,145 @@
+/**
+ * Reset some basic elements
+ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+//BASIC STYLNG
+
+html {
+  font-size: 1em;
+}
+
+body {
+  color: $brand-color;
+  background: linear-gradient(lighten($secondary-color, 15%), $background-color);
+  font-family: Roboto;
+  font-weight: normal;
+  line-height: 1.45;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+h5 {
+  font-size: 1.125em;
+}
+
+.font_small,
+small {
+  font-size: 0.707em;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+
+//IMAGES: ;
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  box-shadow: 2px 3px 4px $grey-color;
+}
+
+
+//LISTS
+
+ul{
+  margin-left: $spacing-unit;
+}
+
+//LINKS
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:visited {
+    color: $link-color;
+  }
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+
+main{
+  clear: both;
+  width: 60%;
+  margin: $spacing-unit auto $spacing-unit * 3 auto; 
+	}
+
+@media screen and (max-width: 800px){
+  main{
+    width: 94%;
+    margin: 0 ;
+    font-size: 0.9em;
+  }
+}
+
+section {
+  width: 100%;
+  height: auto;
+  margin: $spacing-unit auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+//CLEARFIX
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+

@@ -1,0 +1,52 @@
+<header class="nav-header">
+
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+		
+  <nav>
+    <ul class="{{ include.navclass }}">
+      <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">home</a></li>
+      <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">about</a></li>
+      <li><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">contact</a></li>
+      <li><a href="{{site.baseurl}}/portfolio" class="{% if page.url == '/portfolio/' %}current{% endif %}">portfolio</a></li>
+    </ul>
+  </nav>	
+
+</header>
+
+<nav id="mobile-nav">
+  <header>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    
+    <ul id="small-screen-nav" class="{{ include.navclass }}">
+      <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">home</a></li>
+      <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">about</a></li>
+      <li><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">contact</a></li>
+      <li><a href="{{site.baseurl}}/portfolio" class="{% if page.url == '/portfolio/' %}current{% endif %}">portfolio</a></li>
+    </ul>
+     
+  </header>
+</nav>
+
+
+<section class="hero-img">
+{% if page.url == '/' %}
+  <img src="/images/bg.jpg" alt="header photo">
+  <h2>Photos &amp; memories</h2>
+{% endif %}
+
+{% if page.url == '/about/' %}
+  <img src="/images/bg-about.jpg" alt="header photo">
+{% endif %}
+
+{% if page.url == '/contact/' %}
+  <img src="/images/bg-contact.jpg" alt="header photo">
+{% endif %}
+
+{% if page.url == '/portfolio/' %}
+  <img src="/images/bg-portfolio.jpg" alt="header photo">
+{% endif %}
+
+<div class="gradient-bar"></div>
+</section>
+
+

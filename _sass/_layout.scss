@@ -1,0 +1,434 @@
+//SITE HEADER
+header.nav-header {
+  border-top: 3px solid $brand-color;
+  background-color: $secondary-color;
+  border-bottom: 1px solid lighten($grey-color, 25%);
+  padding:  $spacing-unit / 3 0;
+  //Positioning context for the mobile navigation icon
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  header.nav-header, 
+  .nav-header,
+  section.hero-img img {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+//link via naam naar home page
+.site-title {
+  margin-left: $spacing-unit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  &,
+  &:visited {
+    color: $brand-color;
+  }
+}
+
+nav {
+  width: 22em;
+ margin-top: 0.5em;
+  height: auto;
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  float: left;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0 0 0.1em;
+  width: 5em;
+  text-align: center;
+}
+
+nav ul li a {
+ // display: block;
+  color: $link-color;
+  font-size: 1em;
+  text-decoration: none;
+  line-height: 1.2em;
+  border-radius: 3px;
+  &:hover {
+    color: $brand-color;
+    text-decoration: underline;
+  }
+}
+
+//MOBILE NAV
+
+nav#mobile-nav {
+  margin-top: 0;
+  overflow: hidden;
+}
+
+nav#mobile-nav header{
+  width: 100%;
+  margin: 0;
+   a {
+    width: 100%;
+    text-align: center;
+    font-size: 130%;
+    line-height: normal;    
+    margin-left: 0;
+    padding: $spacing-unit / 2;
+    background-color: $secondary-color;
+  }
+}
+
+nav#mobile-nav,  ul#small-screen-nav {
+  width: 100%;
+  background-color: lighten($secondary-color, 5%);
+  text-align: center;
+  li {
+    width: 3.5em;
+    margin: 0.6em 0.3em;
+    padding: auto 6px;
+  }
+  li a {
+    font-size: 96%;
+    padding: $spacing-unit / 10;
+  }
+}
+
+@media screen and (min-width: 768px){
+  nav#mobile-nav {
+    display: none;
+  }
+}
+
+//de hero img
+section.hero-img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  box-shadow: none;
+  position: relative;
+}
+
+//hero tekst
+section.hero-img h2 {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bitter', serif;
+  font-size: 250%;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px $background-color;
+}
+
+ul#paginator-posts li {
+  list-style-type: none;
+}
+
+section.post {
+  width: 70%;
+  margin: $spacing-unit auto $spacing-unit * 3 auto;
+}
+
+@media screen and (max-width: 800px){
+  section.post{
+    width: 90%;
+    margin: $spacing-unit 0;
+    font-size: 90%;
+  }
+}
+
+//PAGE-CONTENT
+main img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto $spacing-unit * 2 auto;
+}
+
+main a {
+  text-decoration: none;
+  //background-color:  lighten($secondary-color, 20%);
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid $secondary-color;
+  font-size: smaller;
+}
+
+li.text-left p {
+    padding-left: 0;
+  }
+
+//PAGINATION
+div.pagination {
+  font-size: 1.25em;
+  margin-top: 2em;
+  padding: $spacing-unit;
+}
+
+.next,
+.page_number,
+.previous {
+  background-color: $secondary-color;
+  font-size: 60%;
+  margin: 0.5em;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid lighten($brand-color, 10%);
+  box-shadow: 1px 1px 1px lighten($secondary-color, 50%);
+}
+
+//Vooruit en terug onder een post
+ul.bottom-post-nav {
+  margin-top: $spacing-unit * 2;
+}
+
+ul li.bottom-nav-post {
+  width: 45%;
+  margin: 0 auto 0.5em;
+  list-style-type: none;
+  text-align: center;
+  border: 1px solid $secondary-color;
+  box-shadow: 1px 1px 1px $text-color;
+  a {
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 0 0;
+    display: block;
+    font-size: 110%;
+    span {
+      font-size: 130%;
+      font-weight: 700;
+    }
+  }
+}
+
+//GALLERY
+section.gallery-container {
+  padding: $spacing-unit;
+  background-color: lighten($secondary-color, 17%);
+  box-sizing: border-box;
+}
+
+section.gallery-container a {
+  width: 46.5%;
+  height: auto;
+  margin: .9%;
+  overflow: hidden;
+  float: left;
+}
+
+section.gallery-container a img {
+  margin: 0;
+}
+
+@media screen and (max-width: 1260px) {
+  section.gallery-container a {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  section.gallery-container a {
+    width: 100%;
+  }
+}
+
+hr {
+  width: 40%;
+  margin: 3em auto;
+  opacity: 0.3;
+}
+
+//PORTFOLIO
+h3.portfolio-header {
+  width: 70%;
+  margin: $spacing-unit * 2 auto $spacing-unit auto;
+}
+
+@media screen and (max-width: 800px){
+   h3.portfolio-header{
+      margin: $spacing-unit * 1.5  auto $spacing-unit $spacing-unit;
+    }
+}
+
+section.portfolio-container {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: lighten($secondary-color, 17%);
+  margin-bottom: $spacing-unit * 3;
+  box-sizing: border-box;
+  p{
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px){
+  section.portfolio-container{
+    width: 90%;
+    font-size: 90%;
+  }
+}
+
+section.portfolio-container li {
+  width: 50%;
+  float: left;
+  list-style-type: none;
+}
+
+section.portfolio-container li a {
+  margin-left: $spacing-unit / 2;
+}
+
+section.portfolio-container img {
+  padding: $spacing-unit / 2;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+.portfolio-container h4 {
+  margin-top: 0;
+}
+
+//SITE FOOTER
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: $secondary-color;
+  width: 100%;
+  height: 15vh;
+}
+
+.footer-box {
+  flex: 1 1 auto;
+  box-sizing: content-box;
+}
+
+footer.footer-box,
+.box1,
+p {
+  //margin-top: $spacing-unit;
+  text-align: left;
+  padding-left: $spacing-unit;
+  font-weight: 600;
+}
+
+div.footer-box,
+.box2,
+ul#footernav {
+  list-style: none;
+  text-align: center;
+  box-sizing: border-box;
+  li {
+    padding-left: $spacing-unit / 6;
+    padding-right: $spacing-unit / 6;
+    border-right: 1px solid $brand-color;
+    &:last-child {
+      border-right: 0;
+      padding-right: 0;
+    }
+  }
+  a {
+    padding: 3px 5px;
+    border-radius: 3px;
+  }
+}
+
+div.footer-box,
+.box3 ul#soc-media-group {
+  text-align: right;
+  margin-top: $spacing-unit;
+  padding-right: $spacing-unit;
+  box-sizing: border-box;
+  li {
+    display: inline-block;
+    border-right: 0;
+    a img {
+      width: 24px;
+      margin-left: $spacing-unit / 2;
+      box-shadow: 1px 1px 1px $secondary-color;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+//MEDIAQUERIES footer
+@media screen and (max-width:1120px) {
+  footer {
+    height: auto;
+  }
+  .footer-box.box {
+    flex: 0 0 100%;
+  }
+  .footer-box.box1 {
+    order: 3;
+    p {
+      text-align: center;
+      padding-left: 0;
+      font-size: 80%;
+    }
+  }
+  .footer-box.box2 {
+    order: 1;
+    ul#footernav ul li a{
+      line-height: 1em;
+    }
+  }
+  .footer-box.box3 {
+    order: 2;
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .footer-box,  
+  .footer-box.box1,  
+  .footer-box.box2,  
+  .footer-box.box3 {
+    margin: 0.6em 0;
+  }
+}
+
+//De pijl omhoog
+#element-align {
+  position: fixed;
+  bottom: 30%;
+  left: 0%;
+}
+
+.hor-ver-centreren {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  margin: auto;
+  max-width: 30px;
+  box-shadow: none;
+  vertical-align: inherit
+}
+
+#element-align img {
+  width: 30px;
+  height: 30px;
+}
+
+#element-align a:hover,
+#element-align a:focus {
+  opacity: .5;
+}

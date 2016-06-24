@@ -1,0 +1,47 @@
+
+a.current {
+    background-color: lighten($secondary-color, 5%);
+    color: lighten($tertiary-color, 50%);
+  padding: $spacing-unit / 10 $spacing-unit / 5;
+    &:hover {
+        opacity: 0.5;
+        color: $link-hover-color;
+    }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.more-padding-left-30 {
+  padding-left: 30px;
+}
+
+.less-padding-right-30 {
+  padding-right: -30px;
+}
+
+.more-padding-bottom-60 {
+  padding-bottom: $spacing-unit * 2;
+}
+
+p.plain-link a {
+  border: none;
+}
