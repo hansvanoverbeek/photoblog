@@ -21,7 +21,7 @@ layout: default
                 <br>
                 <br> {{post.content | truncatewords: 30}}
                 <li class="text-right">
-                    <a href="{{ post.url }}">Read more ...</a>
+                    <a href="{{ site.baseurl }}/{{ post.url }}">Read more ...</a>
                 </li>
                 </li>
                 {% endfor %}
