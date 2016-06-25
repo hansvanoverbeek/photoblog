@@ -5,7 +5,7 @@ description: Een contactformulier voor uw bericht. A contact form for your messa
 permalink: /contact/
 ---
 
-<main>
+<section class="portfolio-container">
  <h3>Your message is welcome</h3>
   <form action="https://formspree.io/havov@live.nl"
       method="POST">
@@ -19,4 +19,4 @@ permalink: /contact/
       <input id="submit" type="button" value="Send">
       </fieldset>
   </form>
-</main>
+</section> 
