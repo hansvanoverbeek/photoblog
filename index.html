@@ -10,7 +10,7 @@ layout: default
         </p>
         
         <p class="plain-link">
-          This is a website for photo enthousiasts. Here I like to share my photos with you. On this blogpage I show images of recent situations that caught my interest. Returning themes can found in  <a href="{{ site.baseurl}}/portfolio/">portfolio</a>. My take on photography is in <a href="{{ site.baseurl}}/about/">About me</a>. And I love to get in touch, so you contact me  <a href="{{ site.baseurl}}/contactt/">here</a> if you like.
+          This is a website for photo enthousiasts. Here I like to share my photos with you. On this blogpage I show images of recent situations that caught my interest. Returning themes can found in  <a href="{{ site.baseurl}}/portfolio/">portfolio</a>. My take on photography is in <a href="{{ site.baseurl}}/about/">About me</a>. And I love to get in touch, so you contact me  <a href="{{ site.baseurl}}/contact/">here</a> if you like.
         </p>
     </section>
 
@@ -30,10 +30,10 @@ layout: default
         <!-- Pagination links -->
         <div class="pagination text-center">
             {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a> {% else %}
+            <a href="{{ paginator.previous_page_path | prepend: baseurl }}" class="previous">Previous</a> {% else %}
             <span class="previous">Previous</span> {% endif %}
             <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
+            <a href="{{ paginator.next_page_path | prepend: baseurl }}" class="next">Next</a> {% else %}
             <span class="next ">Next</span> {% endif %}
         </div>
 
