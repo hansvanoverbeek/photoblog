@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 description: Mijn opvatting over fotografie. My artist statement about photography.
-images_path: /images/
+images_path: {{ site.baseurl }}/images/
 ---
 
 Fotografie is:

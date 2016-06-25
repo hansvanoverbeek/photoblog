@@ -3,7 +3,7 @@ layout: post
 title: Niemand wuifde
 ---
 
-![containerschip](/images/containerschip.jpg)
+![containerschip]({{ site.baseurl }}/images/containerschip.jpg)
 
 De Hyundai Drive, een containerschip van 365,5 meter met een breedte van 48 meter, kwam voorbij Maassluis op weg naar een nabije werf voor onderhoud. Als een cruiseschip van deze afmetingen langskomt staat de kade vol met enthousiaste mensen. Dit indrukwekkende schip ging stilletjes voorbij.
 <br><br>

@@ -3,7 +3,7 @@ layout: post
 title: Aida Prima geeft lichtshow
 ---
 
-![Aida Prima](/images/lichtshow.jpg)
+![Aida Prima]({{ site.baseurl }}/images/lichtshow.jpg)
 
 De Aida Prima is veruit het gezelligste cruiseschip dat je aan de terminal in Rotterdam kunt zien. Op Bevrijdingsdag gaf ze een gevarieerde lichtshow ten beste met haar boordverlichting, tot groot vermaak van de mensen op de kades.
 <br><br>

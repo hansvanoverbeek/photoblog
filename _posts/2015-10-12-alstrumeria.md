@@ -4,7 +4,7 @@ title: Alstrumeria in de vensterbank
 ---
 
 
-![alstrumeria](/images/alstrumeria.jpg)
+![alstrumeria]({{ site.baseurl }}/images/alstrumeria.jpg)
 
 
 Er zijn verscheidene manieren om met behulp van een lens een dromerig effect op te roepen. In deze foto gebruikte ik vaseline, gesmeerd op een UV-filter. De lens zelf was een 50 mm. 1.8. De alstrumeria alleen liet teveel zien van een minder aantrekkelijk achtergrond. Daarom maakte ik een compositie met de bieslook in de vensterbank. Het binnenkomende zonlicht zorgde voor een zomerse sfeer in de herfst. 
