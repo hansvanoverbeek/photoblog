@@ -2,7 +2,7 @@
 layout: default
 title: Portfolio
 description: De portfolio pagina bevat links naar galeries die mijn belangrijkste thema's bevattten. The portfolio page contains links to the main galleries.
-image_path: {{ site.baseurl }}/themas/
+image_path: photoblog/themas/*.jpg
 permalink: /portfolio/
 ---
 <h3 class="portfolio-header">{{ page.title }}</h3> 
