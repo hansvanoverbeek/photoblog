@@ -34,4 +34,4 @@ image_path: /themas/landschap.jpg
 
 
 
-[&laquo;TERUG](/portfolio/) naar de vorige pagina
+[&laquo;TERUG]({{ site.baseurl }}/portfolio/) naar de vorige pagina

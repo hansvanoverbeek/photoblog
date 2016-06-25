@@ -35,4 +35,4 @@ images_folder: /themas/schepen/
 
 
 
-[&laquo;TERUG](/portfolio/) naar de vorige pagina
+[&laquo;TERUG]({{ site.baseurl }}/portfolio/) naar de vorige pagina
