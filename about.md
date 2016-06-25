@@ -1,5 +1,5 @@
 ---
-layout: page
+layout:default
 title: About me
 permalink: /about/
 description: Mijn opvatting over fotografie. My artist statement about photography.
