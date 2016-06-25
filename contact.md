@@ -16,7 +16,7 @@ permalink: /contact/
       <input type="email" name="_replyto">
       <label>Your message:</label>
       <input id="text" type="textarea" name="message" maxlength="500" placeholder="U heeft max 500 tekens voor uw bericht">
-      <input id="submit" type="button" value="Send">
+      <input id="submit" type="submit" value="Send">
       </fieldset>
   </form>
 </section> 
