@@ -2,6 +2,7 @@
 layout: default
 title: Portfolio
 description: De portfolio pagina bevat links naar galeries die mijn belangrijkste thema's bevattten. The portfolio page contains links to the main galleries.
+image_path: /themas/
 permalink: /portfolio/
 ---
 
@@ -17,7 +18,15 @@ permalink: /portfolio/
    </p>
    
    <hr>
+   {% for item in site.themas %}
    
+    <li>
+     <a href="{{site.baseurl}}/{{ item.url }}">{{ item.title }}
+     <img src="{{ site.baseurl}}/{{ item.image_path }}" alt="{{ item.title }}">
+     </a>
+    </li>
+   
+   {% endfor %}
  
 </section>
 

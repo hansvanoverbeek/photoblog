@@ -20,12 +20,7 @@ collections:
  themas:
    output: true
    
- schepen:
-   output: true
-
 gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
-
-
  
 paginate: 5
 paginate_path: "/blog/page:num"
