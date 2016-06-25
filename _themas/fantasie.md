@@ -2,7 +2,7 @@
 layout: page
 title: Fantasie
 description: In deze galerie digitale fotocomposities met een surrealistische betekenis. In this gallery digital composites with surrealistic content. Photoshop composities / composites. 
-image_path: {{ site.baseurl }}/themas/fantasie.jpg
+image_path: photoblog/themas/fantasie.jpg
 ---
 
 <section class="gallery-container">
