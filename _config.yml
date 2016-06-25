@@ -29,4 +29,4 @@ language_date: data.lang.%%
 language_includes_dir: _i18n
 
 # Build settings
-markdown: redcarpet
+markdown:  kramdown
