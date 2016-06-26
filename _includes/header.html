@@ -5,9 +5,9 @@
   <nav>
     <ul class="{{ include.navclass }}">
       <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">home</a></li>
-      <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '{{ site.baseurl }}/about/' %}current{% endif %}">about</a></li>
-      <li><a href="{{site.baseurl}}/contact/" class="{% if page.url == '{{ site.baseurl }}/contact/' %}current{% endif %}">contact</a></li>
-      <li><a href="{{site.baseurl}}/portfolio" class="{% if page.url == '{{ site.baseurl }}/portfolio/' %}current{% endif %}">portfolio</a></li>
+      <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">about</a></li>
+      <li><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">contact</a></li>
+      <li><a href="{{site.baseurl}}/portfolio" class="{% if page.url == '/portfolio/' %}current{% endif %}">portfolio</a></li>
     </ul>
   </nav>	
 
