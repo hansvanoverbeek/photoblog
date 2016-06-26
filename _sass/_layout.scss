@@ -139,6 +139,10 @@ section.post {
   margin: $spacing-unit auto $spacing-unit * 3 auto;
 }
 
+section.post p img{
+  text-align: center;
+}
+
 @media screen and (max-width: 800px){
   section.post{
     width: 90%;
