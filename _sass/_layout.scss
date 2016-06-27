@@ -94,7 +94,7 @@ nav#mobile-nav,  ul#small-screen-nav {
 }
 
 @media screen and (min-width: 768px){
-  nav#mobile-nav{
+  nav#mobile-nav, ul#small-screen-nav{
     display: none;
     visibility: hidden;
   }
