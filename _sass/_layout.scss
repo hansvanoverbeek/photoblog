@@ -148,13 +148,14 @@ section.post {
   }
 }
 
-section.post + p{
+section.post  p{
   margin-left: 0;
+  text-align: center;
 }
 
-section.post + p > img{
+/*section.post p > img{
   margin: 0 auto;
-}
+}*/
 
 //PAGE-CONTENT
 main img {
