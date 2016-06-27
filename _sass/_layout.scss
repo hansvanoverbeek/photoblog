@@ -148,7 +148,7 @@ section.post {
   }
 }
 
-section.post + p{
+section.post > p{
   margin-left: 0;
   text-align: center;
 }
