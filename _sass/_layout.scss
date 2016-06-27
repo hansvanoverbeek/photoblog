@@ -114,11 +114,10 @@ section.hero-img {
   padding: 0;
   width: 100%;
   height: auto;
-  position: relative;
   overflow: hidden;
 }
 
-//hero tekst
+/*//hero tekst
 section.hero-img > h2 {
   margin: auto;
   position: absolute;
@@ -129,7 +128,7 @@ section.hero-img > h2 {
   font-size: 250%;
   font-weight: 700;
   text-shadow: 2px 2px 4px $background-color;
-}
+}*/
 
 ul#paginator-posts li {
   list-style-type: none;
