@@ -1,6 +1,7 @@
 .gradient-bar {
   width: 100%;
-  height:  4px;
+  margin: 0;
+  height: 6px;
 	position:relative;
 	&::after {
 		content: "";
