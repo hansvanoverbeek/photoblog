@@ -148,11 +148,11 @@ section.post {
   }
 }
 
-section.post p{
+section.post + p{
   margin-left: 0;
 }
 
-section.post p img{
+section.post + p > img{
   margin: 0 auto;
 }
 
