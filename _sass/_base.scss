@@ -82,7 +82,7 @@ p {
 
 img {
   max-width: 100%;
-  //vertical-align: middle;
+  vertical-align: middle;
   margin: 0 auto;
   box-shadow: 2px 3px 4px $grey-color;
 }
@@ -127,7 +127,7 @@ section {
   width: 100%;
   height: auto;
   margin: $spacing-unit auto;
- // overflow: hidden;
+  overflow: hidden;
   box-sizing: border-box;
 }
 
