@@ -1,9 +1,9 @@
 form {
-margin-top: $spacing-unit * 2;
+margin: $spacing-unit auto $spacing-unit * 2 auto;
   width: 100%;
 }
 
-  fieldset {
+fieldset {
   padding: $spacing-unit $spacing-unit * 2;
   border-color: $secondary-color;
   background-color: lighten($secondary-color, 23%);

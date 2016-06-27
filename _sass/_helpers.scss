@@ -1,11 +1,12 @@
+
 a.current {
-  background-color: lighten($secondary-color, 5%);
-  color: lighten($tertiary-color, 50%);
+    background-color: lighten($secondary-color, 5%);
+    color: lighten($tertiary-color, 50%);
   padding: $spacing-unit / 10 $spacing-unit / 5;
-  &:hover {
-    opacity: 0.5;
-    color: $link-hover-color;
-  }
+    &:hover {
+        opacity: 0.5;
+        color: $link-hover-color;
+    }
 }
 
 .text-center {
