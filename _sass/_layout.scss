@@ -140,17 +140,20 @@ section.post {
   margin: $spacing-unit auto $spacing-unit * 3 auto;
 }
 
-/*section.post div#disqus_thread{
-  width: 100%;
-  height: 6em;
-}*/
-
 @media screen and (max-width: 800px){
   section.post{
     width: 90%;
     margin: $spacing-unit 0;
     font-size: 90%;
   }
+}
+
+section.post p{
+  margin-left: 0;
+}
+
+section.post p img{
+  margin: 0 auto;
 }
 
 //PAGE-CONTENT
