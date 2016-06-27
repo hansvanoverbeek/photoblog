@@ -114,13 +114,14 @@ section.hero-img{
   padding: 0;
   width: 100%;
   max-height: 300px;
-  box-shadow: 0 !important;
+  
   position: relative;
 }
 
 section.hero-img img {
   max-height: 300px;
-  box-shadow: 0;}
+ box-shadow: 0 !important;
+}
 
 //hero tekst
 section.hero-img h2 {
