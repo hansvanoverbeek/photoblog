@@ -133,10 +133,12 @@ section.hero-img h2 {
   font-family: 'Bitter', serif;
   font-size: 250%;
   font-weight: 700;
-  text-shadow: 2px 2px 4px $background-color;
-  
-  @media screen and (min-width: 768px){  
-    display: none;  
+  text-shadow: 2px 2px 4px $background-color; 
+}
+
+ @media screen and (min-width: 768px){  
+    section.hero-img h2{
+      display: none;  
   }
 }
 
