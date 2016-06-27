@@ -140,10 +140,10 @@ section.post {
   margin: $spacing-unit auto $spacing-unit * 3 auto;
 }
 
-section.post div#disqus_thread{
+/*section.post div#disqus_thread{
   width: 100%;
   height: 6em;
-}
+}*/
 
 @media screen and (max-width: 800px){
   section.post{
@@ -195,7 +195,7 @@ div.pagination {
 
 //Vooruit en terug onder een post
 ul.bottom-post-nav {
-  margin-top: $spacing-unit * 3;
+  //margin-top: $spacing-unit * 3;
 }
 
 ul li.bottom-nav-post {
