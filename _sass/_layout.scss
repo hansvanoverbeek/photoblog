@@ -114,12 +114,12 @@ section.hero-img {
   padding: 0;
   width: 100%;
   height: auto;
-  box-shadow: none;
   position: relative;
+  overflow: hidden;
 }
 
 //hero tekst
-section.hero-img h2 {
+section.hero-img > h2 {
   margin: auto;
   position: absolute;
   top: 50%;
