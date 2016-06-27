@@ -131,6 +131,12 @@ section.hero-img h2 {
   text-shadow: 2px 2px 4px $background-color;
 }
 
+section.post div#disqus_thread{
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
 ul#paginator-posts li {
   list-style-type: none;
 }
