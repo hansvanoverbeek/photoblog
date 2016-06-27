@@ -35,7 +35,7 @@ header.nav-header {
 
 nav {
   width: 22em;
- margin-top: 0.5em;
+  margin-top: 0.5em;
   height: auto;
   float: right;
 }
@@ -91,6 +91,13 @@ nav#mobile-nav,  ul#small-screen-nav {
   background-color: lighten($secondary-color, 5%);
   text-align: center; 
   margin: 0 auto $spacing-unit * 2 auto;
+}
+
+@media screen and (min-width: 768px){
+  nav#mobile-nav{
+    display: none;
+    visibility: hidden;
+  }
 }
 
 main a {
