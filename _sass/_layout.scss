@@ -114,7 +114,8 @@ section.hero-img {
   padding: 0;
   width: 100%;
   height: auto;
-  box-shadow: none;
+  max-height: 300px;
+  box-shadow: 0;
   position: relative;
 }
 
