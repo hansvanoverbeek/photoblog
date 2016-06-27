@@ -109,18 +109,13 @@ nav#mobile-nav,  ul#small-screen-nav {
 }
 
 //de hero img
-section.hero-img{
+section.hero-img {
   margin: 0;
   padding: 0;
   width: 100%;
-  max-height: 300px;  
+  height: auto;
+  box-shadow: none;
   position: relative;
-}
-
-section.hero-img img {
-  max-height: 300px;
-  border: 0;
- box-shadow: 0;
 }
 
 //hero tekst
@@ -133,13 +128,7 @@ section.hero-img h2 {
   font-family: 'Bitter', serif;
   font-size: 250%;
   font-weight: 700;
-  text-shadow: 2px 2px 4px $background-color; 
-}
-
- @media screen and (min-width: 768px){  
-    section.hero-img h2{
-      display: none;  
-  }
+  text-shadow: 2px 2px 4px $background-color;
 }
 
 ul#paginator-posts li {
