@@ -29,24 +29,24 @@
 
 
 <section class="hero-img">
-{% if page.url == '/' %}
-  <img src="{{site.baseurl}}/images/bg.jpg" alt="header photo">
- <h2>Photos &amp; memories</h2>
-{% endif %}
+  {% if page.url == '/' %}
+    <img src="{{site.baseurl}}/images/bg.jpg" alt="header photo">
+   <h2>Photos &amp; memories</h2>
+  {% endif %}
 
-{% if page.url == '/about/' %}
-  <img src="{{site.baseurl}}/images/bg-about.jpg" alt="header photo">
-{% endif %}
+  {% if page.url == '/about/' %}
+    <img src="{{site.baseurl}}/images/bg-about.jpg" alt="header photo">
+  {% endif %}
 
-{% if page.url == '/contact/' %}
-  <img src="{{site.baseurl}}/images/bg-contact.jpg" alt="header photo">
-{% endif %}
+  {% if page.url == '/contact/' %}
+    <img src="{{site.baseurl}}/images/bg-contact.jpg" alt="header photo">
+  {% endif %}
 
-{% if page.url == '/portfolio/' %}
-  <img src="{{site.baseurl}}/images/bg-portfolio.jpg" alt="header photo">
-{% endif %}
-
-<!--<div class="gradient-bar"></div>-->
+  {% if page.url == '/portfolio/' %}
+    <img src="{{site.baseurl}}/images/bg-portfolio.jpg" alt="header photo">
+  {% endif %}
 </section>
+
+<div class="gradient-bar"></div>
 
 
