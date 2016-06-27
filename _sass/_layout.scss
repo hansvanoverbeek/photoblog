@@ -140,6 +140,11 @@ section.post {
   margin: $spacing-unit auto $spacing-unit * 3 auto;
 }
 
+section.post div#disqus_thread{
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 800px){
   section.post{
     width: 90%;
