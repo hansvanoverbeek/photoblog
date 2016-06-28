@@ -12,7 +12,7 @@ image_path: /themas/zwartwit.jpg
    <a href="../zwartwit/image-2.jpg"  data-lightbox="zwartwit" data-title="De aanlegsteiger vande pont in Maassluis">
     <img src="../zwartwit/thumb-2.jpg" alt="Een aanlegsteiger">
   </a>
-   <a href="../zwartwit/image-3.jpg"  data-lightbox="zwartwit" data-title="Compositie met gendrullers">
+   <a href="../zwartwit/image-3.jpg"  data-lightbox="zwartwit" data-title="Compositie met regendruppels">
     <img src="../zwartwit/thumb-3.jpg" alt="Regendruppels">
   </a>
    <a href="../zwartwit/image-4.jpg" data-lightbox="zwartwit" data-title="Kraaneiland, long exposure">
