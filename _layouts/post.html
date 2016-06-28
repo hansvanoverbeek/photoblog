@@ -35,7 +35,7 @@ layout: default
 
 
 <ul class="bottom-post-nav">
-  {% if page.previous%}<li class="previous bottom-nav-post"><a href="{{ site.baseurl }}/{{page.previous.url}}"><<span>&laquo;&nbsp;Older post:</span><br>{{page.previous.title}}</a></li>{% endif %}
+  {% if page.previous%}<li class="previous bottom-nav-post"><a href="{{ site.baseurl }}/{{page.previous.url}}"><span>&laquo;&nbsp;Older post:</span><br>{{page.previous.title}}</a></li>{% endif %}
 
   {% if page.next%}<li class="next bottom-nav-post"><a href="{{ site.baseurl }}/{{page.next.url}}"><span>&raquo;&nbsp;Newer post:</span><br>{{page.next.title}}</a></li>{% endif %}
 </ul>
