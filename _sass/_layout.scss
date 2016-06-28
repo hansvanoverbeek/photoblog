@@ -108,17 +108,22 @@ nav#mobile-nav,  ul#small-screen-nav {
   }
 }
 
+section {
+  width: 100%;
+  height: auto;
+  margin: $spacing-unit auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
 //de hero img
 section.hero-img {
   margin: 0;
   padding: 0;
   width: 100%;
-<<<<<<< HEAD
   max-height: 300px;
-=======
   height: auto;
-   overflow: hidden;
->>>>>>> 50cbbac145dd4fb76f9b801cb3c769050c7a8371
+  overflow: hidden;
   box-shadow: none;
   position: relative;
   overflow: hidden;
@@ -137,19 +142,6 @@ section.hero-img h2 {
   text-shadow: 2px 2px 4px $background-color;
 }
 
-<<<<<<< HEAD
-=======
-section.post div#disqus_thread{
-  margin: 0 auto;
-  width: inherit;
-  height: auto;
-}
-
-ul#paginator-posts li {
-  list-style-type: none;
-}
-
->>>>>>> 50cbbac145dd4fb76f9b801cb3c769050c7a8371
 section.post {
   width: 70%;
   margin: $spacing-unit auto $spacing-unit * 3 auto;
@@ -177,7 +169,6 @@ section.post div#disqus_thread{
 ul#paginator-posts li {
   list-style-type: none;
 }
-
 
 
 //PAGE-CONTENT
