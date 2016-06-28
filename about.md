@@ -45,5 +45,5 @@ At the time I started with traditional forms of expression. Painting and graphic
 
 I am a Dutch based photographer and living and working in Maassluis.
 
-Along with photofriends I participate in a collaborative blog.  What we monthly create you can see [here](https//12months12pictures.wordpress.com/).
+Along with photofriends I participate in a collaborative blog.  What we monthly create you can see [here](https://12months12pictures.wordpress.com/).
 
