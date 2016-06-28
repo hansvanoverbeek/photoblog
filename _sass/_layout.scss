@@ -192,6 +192,15 @@ li.text-left p {
     padding-left: 0;
   }
 
+img.icon-flag{
+  width:2em;
+  height: auto;
+  margin: 0 1em 0 0;
+  float: left;
+  border: 0;
+  box-shadow: 2px 2px 2px  lighten(#abd3c8, 15%);
+}
+
 //PAGINATION
 div.pagination {
   font-size: 1.25em;
