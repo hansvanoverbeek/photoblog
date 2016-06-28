@@ -132,16 +132,6 @@ section.hero-img h2 {
   text-shadow: 2px 2px 4px $background-color;
 }
 
-section.post div#disqus_thread{
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-}
-
-ul#paginator-posts li {
-  list-style-type: none;
-}
-
 section.post {
   width: 70%;
   margin: $spacing-unit auto $spacing-unit * 3 auto;
@@ -153,6 +143,24 @@ section.post {
     font-size: 90%;
   }
 }
+
+section.post div#disqus_thread{
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 800px){
+  section.post div#disqus_thread{
+    width: 90%;
+  }
+}
+
+ul#paginator-posts li {
+  list-style-type: none;
+}
+
+
 
 //PAGE-CONTENT
 main img {
