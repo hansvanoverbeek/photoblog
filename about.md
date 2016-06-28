@@ -21,7 +21,9 @@ Sinds ik met fotografie bezig ben is dit allemaal aan de orde en ik geniet er va
 
 Destijds startte ik met traditionele expressievormen. Schilderen en grafiek. Werken met textuur in collages vulde het later aan. De opgebouwde kennis en ervaring gebruik ik opnieuw in mijn digitale werk. Fotograferen en fotomanipulatie zijn momenteel mijn belangrijkste expressiemiddelen.
 
-Ik woon en werk in Maassluis
+Ik woon en werk in Maassluis.
+
+Samen met fotovrienden participeer in een collaborative blog. Wat we maandelijks met elkaar maken kunt u [hier](https://12months12pictures.wordpress.com/) zien.
 
 <hr>
 
@@ -42,4 +44,6 @@ Since I am engaged in photography I encounter this all and I enjoy it. Topics I 
 At the time I started with traditional forms of expression. Painting and graphics. Working with texture in collages completed this later. on The thus gained knowledge and experience I use again in my digital work. Photography and photo manipulation are currently my main means of expression.
 
 I am a Dutch based photographer and living and working in Maassluis.
+
+Along with photofriends I participate in a collaborative blog.  What we monthly create you can see [here](https//12months12pictures.wordpress.com/).
 
