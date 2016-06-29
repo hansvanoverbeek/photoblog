@@ -3,14 +3,14 @@ header.nav-header {
   border-top: 3px solid $brand-color;
   background-color: $secondary-color;
   border-bottom: 1px solid lighten($grey-color, 25%);
-  padding:  $spacing-unit / 3 0;
+  padding: $spacing-unit / 3 0;
   //Positioning context for the mobile navigation icon
   position: relative;
   overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
-  header.nav-header, 
+  header.nav-header,
   .nav-header,
   section.hero-img img {
     display: none;
@@ -35,7 +35,7 @@ header.nav-header {
 
 nav {
   width: 22em;
- margin-top: 0.5em;
+  margin-top: 0.5em;
   height: auto;
   float: right;
 }
@@ -53,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
- // display: block;
+  // display: block;
   color: $link-color;
   font-size: 1em;
   text-decoration: none;
@@ -72,10 +72,10 @@ nav#mobile-nav {
   overflow: hidden;
 }
 
-nav#mobile-nav header{
+nav#mobile-nav header {
   width: 100%;
   margin: 0;
-   a {
+  a {
     width: 100%;
     text-align: center;
     font-size: 150%;
@@ -86,23 +86,23 @@ nav#mobile-nav header{
   }
 }
 
-nav#mobile-nav,  ul#small-screen-nav {
+nav#mobile-nav ul#small-screen-nav {
   width: 100%;
   background-color: lighten($secondary-color, 5%);
   text-align: center;
   li {
     width: auto;
-     margin: 0.5em;
-    padding: auto 6px;   
+    margin: 0.5em;
+    padding: auto 6px;
   }
   li a {
     font-size: 115%;
     padding: $spacing-unit / 10;
-     border: 1px solid lighten($brand-color, 40%);
+    border: 1px solid lighten($brand-color, 40%);
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   nav#mobile-nav {
     display: none;
   }
@@ -147,26 +147,26 @@ section.post {
   margin: $spacing-unit auto $spacing-unit * 3 auto;
 }
 
-@media screen and (max-width: 800px){
-  section.post{
+@media screen and (max-width: 800px) {
+  section.post {
     width: 90%;
     font-size: 90%;
   }
 }
 
-section.post div#disqus_thread{
+section.post div#disqus_thread {
   margin: 0 auto;
   width: 100%;
   height: auto;
 }
 
-@media screen and (max-width: 800px){
-  section.post div#disqus_thread{
+@media screen and (max-width: 800px) {
+  section.post div#disqus_thread {
     width: 90%;
   }
 }
 
-section.post > p > img{
+section.post > p > img {
   width: 100%;
   margin: 0 auto;
 }
@@ -174,7 +174,6 @@ section.post > p > img{
 ul#paginator-posts li {
   list-style-type: none;
 }
-
 
 //PAGE-CONTENT
 main img {
@@ -194,16 +193,39 @@ main a {
 }
 
 li.text-left p {
-    padding-left: 0;
-  }
+  padding-left: 0;
+}
 
-img.icon-flag{
-  width:2em;
+img.icon-flag {
+  width: 2em;
   height: auto;
   margin: 0 1em 0 0;
   float: left;
   border: 0;
   box-shadow: 2px 2px 2px  lighten(#abd3c8, 15%);
+}
+
+//ARRCHIVE sectie
+
+main#archive {
+  width: 40%;
+  margin: 0 auto;
+  padding-left: 25%;
+  ul {
+    list-style-type: none;
+    margin: 0;
+  }
+  li a {
+    border: 0;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  main#archive {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 10%;
+  }
 }
 
 //PAGINATION
@@ -260,7 +282,7 @@ section.gallery-container {
 section.gallery-container a {
   width: 46.5%;
   height: auto;
-  margin: .9%;
+  margin: 0.9%;
   overflow: hidden;
   float: left;
 }
@@ -293,10 +315,10 @@ h3.portfolio-header {
   margin: $spacing-unit * 2 auto $spacing-unit auto;
 }
 
-@media screen and (max-width: 800px){
-   h3.portfolio-header{
-      margin: $spacing-unit * 1.5  auto $spacing-unit $spacing-unit;
-    }
+@media screen and (max-width: 800px) {
+  h3.portfolio-header {
+    margin: $spacing-unit * 1.5  auto $spacing-unit $spacing-unit;
+  }
 }
 
 section.portfolio-container {
@@ -306,13 +328,13 @@ section.portfolio-container {
   background-color: lighten($secondary-color, 17%);
   margin-bottom: $spacing-unit * 3;
   box-sizing: border-box;
-  p{
+  p {
     padding-left: 0;
   }
 }
 
-@media screen and (max-width: 800px){
-  section.portfolio-container{
+@media screen and (max-width: 800px) {
+  section.portfolio-container {
     width: 90%;
     font-size: 90%;
   }
@@ -405,7 +427,7 @@ div.footer-box,
 }
 
 //MEDIAQUERIES footer
-@media screen and (max-width:1120px) {
+@media screen and (max-width: 1120px) {
   footer {
     height: auto;
   }
@@ -422,7 +444,7 @@ div.footer-box,
   }
   .footer-box.box2 {
     order: 1;
-    ul#footernav ul li a{
+    ul#footernav ul li a {
       line-height: 1em;
     }
   }
@@ -433,10 +455,10 @@ div.footer-box,
   }
 }
 
-@media screen and (max-width:600px) {
-  .footer-box,  
-  .footer-box.box1,  
-  .footer-box.box2,  
+@media screen and (max-width: 600px) {
+  .footer-box,
+  .footer-box.box1,
+  .footer-box.box2,
   .footer-box.box3 {
     margin: 0.6em 0;
   }
@@ -458,7 +480,7 @@ div.footer-box,
   margin: auto;
   max-width: 30px;
   box-shadow: none;
-  vertical-align: inherit
+  vertical-align: inherit;
 }
 
 #element-align img {
@@ -468,5 +490,5 @@ div.footer-box,
 
 #element-align a:hover,
 #element-align a:focus {
-  opacity: .5;
+  opacity: 0.5;
 }
