@@ -12,14 +12,14 @@ description:  # this means to ignore newlines until "baseurl:"
   Een website met blogposts en foto's voor liefhebbers. A website with blogposts and photos for photo enthusiasts.
 baseurl: "/photoblog" # the subpath of your site, e.g. /blog
 url: "https://hansvanoverbeek.github.io/photoblog/" # the base hostname & protocol for your site
-twitter_username: @havov
+twitter_username: hans van overbeek
 github_username:  hansvanoverbeek
 permalink: pretty
 
 collections:
  themas:
    output: true
-   
+
 gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
 
 paginate: 5
