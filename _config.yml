@@ -19,7 +19,7 @@ permalink: pretty
 collections:
  themas:
    output: true
-
+   
 gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
 
 paginate: 5

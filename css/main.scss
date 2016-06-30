@@ -13,7 +13,7 @@ $spacing-unit:     30px;
 
 $brand-color:       #612f86;
 $secondary-color:   #abd3c8;
-$tertiary-color:    #9dab6c;  
+$tertiary-color:    #9dab6c;
 $quarternary-color: #f7f5d6;
 $text-color:        $brand-color;
 $background-color:  #f8f6ef;
@@ -37,18 +37,18 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "normalize",
-        "base",
-        "layout",
-        "helpers",
-        "forms",
-        "gradient-bar",
-        "grid"
+  "normalize",
+  "base",
+  "layout",
+  "helpers",
+  "forms",
+  "gradient-bar",
+  "grid"
 ;
