@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Een saaie foto verbeterd
+category: landschap
 ---
 
 
-![eidfjord]({{ site.baseurl }}/images/eidfjord.jpg)
+![eidfjord](/images/eidfjord.jpg)
 
 
 Mijn vakantiefoto's overziend zag ik een aantal dat ik tamelijk saai vond, ondanks dat de situatie waarin ze nam aantrekkelijk was. Ik besloot te kijken wat het zou opleveren als ik een conversie deed naar zwart en wit. De eerste stappen werden gezet in Lightroom. Vervolgens de Zwart/wit-module in Perfect Photosuite en dodging en burning in Photoshop. Hier is het resultaat. 

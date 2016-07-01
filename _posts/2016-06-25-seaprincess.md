@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bijna op zee
+category: schepen
 ---
 
 ![Bijna op zee]({{ site.baseurl }}/images/sea_princess.jpg)

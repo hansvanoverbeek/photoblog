@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Een klein beetje kleur
+category: schepen
 ---
 
-![beetjekleur]({{ site.baseurl }}/images/beetje-kleur.jpg)
+![beetjekleur](/images/beetje-kleur.jpg)
 
 Op een grijze winterochtend was net een heel klein vleugje kleur te zien. Niet veel, maar ik vond het interessant genoeg voor een foto.
 <br><br>

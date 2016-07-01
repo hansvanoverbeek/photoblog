@@ -1,9 +1,10 @@
 ---
 layout: post
 title: De pioenrozen zijn er weer volop
+category: planten
 ---
 
-![pioenroos]({{ site.baseurl }}/images/pioenroos.jpg)
+![pioenroos](/images/pioenroos.jpg)
 
 Dit is een pioenroos uit het boeket dat we kregen van Aartje. In het vroege ochtendlicht gefotografeerd. Daarna bewerkt in Lightroom en Photoshop. Ik wilde een zachte en romantische uitstraling bereiken.
 <br><br>
