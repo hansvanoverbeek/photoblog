@@ -7,11 +7,9 @@ permalink: /archive/
 
  <h3 class="text-center">Blog Archief</h3>
 
- <main id="archive">  
+ <main id="archive">
 
-
-
-  <div class="box box-left">
+  <div class="archie-box">
 
    <h4>Categorie&euml;n</h4>
 
@@ -51,7 +49,7 @@ permalink: /archive/
     </ul>
     </div>
 
-  <div class="box box-right">
+  <div class="archive-box">
    <h4>Chronologisch</h4>
   {% for post in site.posts %}
   {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
@@ -68,7 +66,4 @@ permalink: /archive/
   </ul>
   </div>
 
-
 </main>
-
-<hr>

@@ -207,59 +207,41 @@ img.icon-flag {
 
 //ARRCHIVE sectie
 main#archive {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
-main#archive div.box {
-  width: 50%;
-  flex: 1 1 auto;
-  flex-wrap: wrap;
-  flex-direction: row;
-  h4, h5, ul {
+main#archive .archive-box {
+  width: 50vw;
+  height: auto;
+  flex: 1 1 400px;
+  margin-bottom: 2em;
+  h4,
+  h5,
+  ul {
     list-style-type: none;
-    margin: 0 0 1em 50%;
-    transform: translateX(-50%)
+    margin: 0 0 1.5em 50%;
+    transform: translateX(-50%);
   }
   li a {
     border: 0;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  main#archive div.box{
-    width: 50%;
-    flex-direction: column;
-    h4{
-      margin: 1em 0 1em 0.5em;
-      transform: none;
-    }
-     h5, ul {
-      margin: 0 0 1em 1em;
-      transform: none;
-    }
-  }
-}
-
 @media screen and (max-width: 800px) {
-  h3{
-    font-size: 1.5em;
-  }
-  main#archive div.box{
-  font-size: smaller;
-    h4, h5, ul {
-      margin: 0 0 1em 0.5em;
-      transform: none;
+  main#archive .archive-box {
+    h4 {
+      text-decoration: overline;
+      color: $brand-color;
     }
-  }
-  .box-left {
-    order: 1;
-    flex: 100% 0 auto;
-  }
-  .box-right {
-    order: 2;
-    flex: 100% 0 auto;
+     h4,
+     h5,
+     ul {
+      margin: 0 0 1em 10%;
+      transform: translateX(0%);
+    }
   }
 }
 
