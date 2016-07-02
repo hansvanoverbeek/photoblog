@@ -4,7 +4,7 @@ title: De lent is er bijna
 category: landschap
 ---
 
-![voorjaarsbegin](/images/voorjaarsbegin.jpg)
+![voorjaarsbegin]({{site.baseurl}}/images/voorjaarsbegin.jpg)
 
 Op een fietstocht tussen Maassluis en Vlaardingen kwam ik een berm tegen waarin ik een compositie kon zien. De foto is met Photoshop aangepast om het kille licht te nadrukken. Hier proefde ik het aanstaande doorbreken van de lente.
 <br><br>
