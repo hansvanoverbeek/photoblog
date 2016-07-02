@@ -4,7 +4,7 @@ title: Klassiek Hollands
 category: landschap
 ---
 
-![uiterwaarden](/images/uiterwaarden.jpg)
+![uiterwaarden]({{ site.baseurl }}/images/uiterwaarden.jpg)
 
 De Waal bij de vesting Vuren. De zon breekt door in een nevelig landschap met koeien. Klassiek Hollands lanschap op zijn best.
 <br><br>
