@@ -205,7 +205,7 @@ img.icon-flag {
   box-shadow: 2px 2px 2px  lighten(#abd3c8, 15%);
 }
 
-//ARRCHIVE sectie
+//ARCHIVE sectie
 main#archive {
   width: 100%;
   height: 100%;
@@ -213,7 +213,7 @@ main#archive {
   flex-wrap: wrap;
 }
 
-main#archive .archive-box {
+main#archive.archive-box {
   width: 50vw;
   height: auto;
   flex: 1 1 400px;
@@ -231,7 +231,7 @@ main#archive .archive-box {
 }
 
 @media screen and (max-width: 800px) {
-  main#archive .archive-box {
+  main#archive.archive-box {
     h4 {
       text-decoration: overline;
       color: $brand-color;
