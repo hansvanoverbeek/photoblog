@@ -1,5 +1,5 @@
 form {
-margin: $spacing-unit auto $spacing-unit * 2 auto;
+  margin: $spacing-unit auto $spacing-unit * 2 auto;
   width: 100%;
 }
 
@@ -39,6 +39,18 @@ input#submit {
   line-height: 20%;
   background-color: $secondary-color;
   color: lighten($brand-color, 10%);
+}
+
+@media screen and(max-width: 1000px) {
+  input#submit {
+    width: 30%;
+  }
+}
+
+@media screen and(max-width: 460px) {
+  input#submit {
+    width: 60%;
+  }
 }
 
 input#submit:hover,

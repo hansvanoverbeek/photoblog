@@ -77,7 +77,6 @@ p {
   margin-bottom: 1.3em;
 }
 
-
 //IMAGES: ;
 
 img {
@@ -86,10 +85,9 @@ img {
   box-shadow: 2px 3px 4px $grey-color;
 }
 
-
 //LISTS
 
-ul{
+ul {
   margin-left: $spacing-unit;
 }
 
@@ -107,16 +105,16 @@ a {
   }
 }
 
-main{
+main {
   clear: both;
   width: 60%;
-  margin: $spacing-unit auto $spacing-unit * 3 auto; 
-	}
+  margin: $spacing-unit auto $spacing-unit * 3 auto;
+}
 
-@media screen and (max-width: 800px){
-  main{
+@media screen and (max-width: 800px) {
+  main {
     width: 94%;
-    margin: 0 ;
+    margin: 0 auto;
     font-size: 0.9em;
   }
 }
@@ -124,12 +122,9 @@ main{
 //CLEARFIX
 
 %clearfix {
-  &:after {
+  &::after {
     content: "";
     display: table;
     clear: both;
   }
 }
-
-
-
