@@ -42,13 +42,13 @@ input#submit {
   color: lighten($brand-color, 10%);
 }
 
-@media screen and(max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   input#submit {
     width: 30%;
   }
 }
 
-@media screen and(max-width: 460px) {
+@media screen and (max-width: 460px) {
   input#submit {
     width: 60%;
   }
