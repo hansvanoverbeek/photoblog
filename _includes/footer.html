@@ -1,0 +1,64 @@
+<div class="gradient-bar">
+</div>
+
+<footer>
+
+  <div class="footer-box box1">
+    <p>&copy; {{'now'| date: "%Y"}} Havov Photography</p>
+  </div>
+
+  <div class="footer-box box2">
+    <ul id="footernav">
+      <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">home</a></li>      
+      <li><a href="{{site.baseurl}}/portfolio" class="{% if page.url == '/portfolio/' %}current{% endif %}">portfolio</a></li>
+      <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">about</a></li>
+      <li><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">contact</a></li>
+      <li><a href="{{site.baseurl}}/archive" class="{% if page.url == '/archive/' %}current{% endif %}">archive</a></li>
+    </ul>
+
+  </div>
+
+  <div class="footer-box box3">
+    <ul#soc-media-group>
+      <li>
+        <a href="https://www.facebook.com/hans.vanoverbeek.5"><img src="{{ site.baseurl }}/images/Facebook.svg" alt="facebook icon"></a>
+      </li>
+      <li>
+        <a href="https://www.pinterest.com/havov/"><img src="{{ site.baseurl }}/images/Pinterest.svg" alt="pinterest icon"></a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/u/0/118297594201389832594/posts"><img src="{{ site.baseurl }}/images/Google +.svg" alt="facebook google plus"></a>
+      </li>
+      <li>
+        <a href="https://www.flickr.com/photos/135906062@N07/"><img src="{{ site.baseurl }}/images/Flickr.svg" alt="flickr icon" /></a>
+      </li>
+      </ul>
+  </div>
+
+
+</footer>
+
+
+<!--JSSCRIPTS-->
+
+<script src="{{ site.baseurl }}/js/jquery-1.12.4.min.js"></script>
+<script src="{{ site.baseurl }}/js/lightbox.min.js"></script>
+
+<script>
+  (function ($) {
+    $("#element-align").hide();
+    var $window = $(window);
+
+    $window.scroll(function () {
+      if ($window.scrollTop() >= 800) {
+        $("#element-align").fadeIn();
+      } else {
+        $("#element-align").fadeOut();
+      }
+    });
+  }(jQuery));
+</script>
+
+</body>
+
+</html>

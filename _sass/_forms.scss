@@ -1,0 +1,61 @@
+form {
+  margin: $spacing-unit auto $spacing-unit * 2 auto;
+  width: 100%;
+  max-width: 50em;
+}
+
+fieldset {
+  padding: $spacing-unit $spacing-unit * 2;
+  border-color: $secondary-color;
+  background-color: lighten($secondary-color, 23%);
+}
+
+label {
+  display: block;
+  margin: 0.25em 0;
+  color: $text-color;
+}
+
+input {
+  width: 100%;
+  height: 1.5em;
+  padding-left: 0.5em;
+  padding-top: 0;
+  font-size: 100%;
+  background-color: #f8f2f6;
+  border-radius: 6px;
+  margin-bottom: 1.3em;
+}
+
+input#text[type=textarea] {
+  height: 5em;
+}
+
+input#submit {
+  margin-top: 1.25em;
+  display: block;
+  width: 20%;
+  padding: $spacing-unit / 2;
+  border-radius: 6px;
+  line-height: 20%;
+  background-color: $secondary-color;
+  color: lighten($brand-color, 10%);
+}
+
+@media screen and(max-width: 1000px) {
+  input#submit {
+    width: 30%;
+  }
+}
+
+@media screen and(max-width: 460px) {
+  input#submit {
+    width: 60%;
+  }
+}
+
+input#submit:hover,
+input#submit:focus {
+  background-color: lighten($brand-color, 50%);
+  color: $text-color;
+}

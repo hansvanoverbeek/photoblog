@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Hans van Overbeek
+email: havov@live.nl
+description:  # this means to ignore newlines until "baseurl:"
+  Een website met blogposts en foto's voor liefhebbers. A website with blogposts and photos for photo enthusiasts.
+baseurl: "/photoblog" # the subpath of your site, e.g. /blog
+url: "https://hansvanoverbeek.github.io/photoblog/" # the base hostname & protocol for your site
+twitter_username: hans van overbeek
+github_username:  hansvanoverbeek
+permalink: pretty
+
+collections:
+ themas:
+   output: true
+
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag, jekyll-minifier]
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+language_date: data.lang.%%
+language_includes_dir: _i18n
+
+# Build settings
+markdown:  kramdown
