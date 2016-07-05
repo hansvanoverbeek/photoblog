@@ -100,7 +100,7 @@ a:hover {
 main {
   clear: both;
   width: 60%;
-  margin: 30px auto 90px auto;
+  margin: 30px auto 90px;
 }
 
 @media screen and (max-width: 800px) {
@@ -258,13 +258,20 @@ ul#paginator-posts li {
 
 section.post {
   width: 70%;
-  margin: 30px auto 90px auto;
+  max-width: 45em;
+  margin: 30px auto 90px;
+}
+
+section.post p,
+section.post img {
+  margin: 1em auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 800px) {
   section.post {
     width: 90%;
-    margin: 30px 0;
+    margin: 30px auto;
     font-size: 90%;
   }
 }
@@ -273,7 +280,7 @@ main img {
   display: block;
   width: 100%;
   height: auto;
-  margin: 0 auto 60px auto;
+  margin: 0 auto 60px;
 }
 
 main a {
@@ -359,8 +366,9 @@ div.pagination {
   .page_number,
   .previous {
     font-size: 80%;
-    margin: 0.2em;
+    margin: 1em;
     padding: 5px;
+    display: block;
   }
 }
 
@@ -369,8 +377,8 @@ ul.bottom-post-nav {
 }
 
 ul li.bottom-nav-post {
-  width: 45%;
-  margin: 0 auto 0.5em;
+  width: 40%;
+  margin: 0 auto 1em;
   list-style-type: none;
   text-align: center;
   border: 1px solid #abd3c8;
@@ -382,11 +390,11 @@ ul li.bottom-nav-post a {
   border: none;
   box-shadow: 0 0 0;
   display: block;
-  font-size: 110%;
+  font-size: 100%;
 }
 
 ul li.bottom-nav-post a span {
-  font-size: 130%;
+  font-size: 110%;
   font-weight: 700;
 }
 
@@ -399,7 +407,7 @@ section.gallery-container {
 section.gallery-container a {
   width: 46.5%;
   height: auto;
-  margin: .9%;
+  margin: 0.9%;
   overflow: hidden;
   float: left;
 }
@@ -428,7 +436,7 @@ hr {
 
 h3.portfolio-header {
   width: 70%;
-  margin: 60px auto 30px auto;
+  margin: 60px auto 30px;
 }
 
 @media screen and (max-width: 800px) {
@@ -621,7 +629,7 @@ div.footer-box li a img:hover,
 
 #element-align a:hover,
 #element-align a:focus {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 a.current {
@@ -673,7 +681,7 @@ p.plain-link a {
 }
 
 form {
-  margin: 30px auto 60px auto;
+  margin: 30px auto 60px;
   width: 100%;
   max-width: 50em;
 }
@@ -715,6 +723,7 @@ input#submit {
   background-color: #abd3c8;
   color: #7c3cac;
 }
+
 @media screen and (max-width: 1000px) {
   input#submit {
     width: 30%;
@@ -749,7 +758,6 @@ input#submit:focus {
   background: linear-gradient(to right, #ddc8ec, #abd3c8);
 }
 
-
 /* Grid */
 
 .row {
@@ -761,7 +769,7 @@ input#submit:focus {
 .col {
   width: 100%;
   float: left;
-  padding-right: 0px;
+  padding-right: 0;
   box-sizing: border-box;
 }
 
@@ -817,10 +825,10 @@ input#submit:focus {
 
 @media screen and (min-width: 400px) {
   .row {
-    margin-right: -0px;
+    margin-right: 0;
   }
   .col {
-    padding-right: 0px;
+    padding-right: 0;
   }
   .col-xs-11 {
     width: 91.662%;
@@ -859,10 +867,10 @@ input#submit:focus {
 
 @media screen and (min-width: 768px) {
   .row {
-    margin-right: -0px;
+    margin-right: 0;
   }
   .col {
-    padding-right: 0px;
+    padding-right: 0;
   }
   .col-sm-11 {
     width: 91.662%;
@@ -901,10 +909,10 @@ input#submit:focus {
 
 @media screen and (min-width: 1024px) {
   .row {
-    margin-right: 0px;
+    margin-right: 0;
   }
   .col {
-    padding-right: 0px;
+    padding-right: 0;
   }
   .col-md-11 {
     width: 91.662%;
@@ -989,16 +997,16 @@ input#submit:focus {
   }
 }
 
-.row:before,
-.row:after,
-.group:before,
-.group:after {
+.row::before,
+.row::after,
+.group::before,
+.group::after {
   content: "";
   display: table;
 }
 
-.row:after,
-.group:after {
+.row::after,
+.group::after {
   clear: both;
 }
 
