@@ -675,6 +675,7 @@ p.plain-link a {
 form {
   margin: 30px auto 60px auto;
   width: 100%;
+  max-width: 50em;
 }
 
 fieldset {
@@ -713,6 +714,17 @@ input#submit {
   line-height: 20%;
   background-color: #abd3c8;
   color: #7c3cac;
+}
+@media screen and (max-width: 1000px) {
+  input#submit {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  input#submit {
+    width: 60%;
+  }
 }
 
 input#submit:hover,
