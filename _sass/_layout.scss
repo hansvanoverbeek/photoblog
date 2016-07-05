@@ -53,7 +53,6 @@ nav ul li {
 }
 
 nav ul li a {
-  // display: block;
   color: $link-color;
   font-size: 1em;
   text-decoration: none;
@@ -66,9 +65,7 @@ nav ul li a {
 }
 
 //MOBILE NAV
-
 nav#mobile-nav {
-  width: 100%;
   margin-top: 0;
   overflow: hidden;
 }
@@ -87,7 +84,8 @@ nav#mobile-nav header {
   }
 }
 
-nav#mobile-nav ul#small-screen-nav {
+nav#mobile-nav,
+ul#small-screen-nav {
   width: 100%;
   background-color: lighten($secondary-color, 5%);
   text-align: center;
@@ -109,25 +107,14 @@ nav#mobile-nav ul#small-screen-nav {
   }
 }
 
-section {
-  width: 100%;
-  height: auto;
-  margin: $spacing-unit auto;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
 //de hero img
 section.hero-img {
   margin: 0;
   padding: 0;
   width: 100%;
-  max-height: 300px;
   height: auto;
-  overflow: hidden;
   box-shadow: none;
   position: relative;
-  overflow: hidden;
 }
 
 //hero tekst
@@ -143,37 +130,27 @@ section.hero-img h2 {
   text-shadow: 2px 2px 4px $background-color;
 }
 
+ul#paginator-posts li {
+  list-style-type: none;
+}
+
 section.post {
   width: 70%;
+  max-width: 45em;
   margin: $spacing-unit auto $spacing-unit * 3 auto;
+  p,
+  img {
+    margin: 1em auto;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 800px) {
   section.post {
     width: 90%;
+    margin: $spacing-unit auto;
     font-size: 90%;
   }
-}
-
-section.post div#disqus_thread {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-}
-
-@media screen and (max-width: 800px) {
-  section.post div#disqus_thread {
-    width: 90%;
-  }
-}
-
-section.post > p > img {
-  width: 100%;
-  margin: 0 auto;
-}
-
-ul#paginator-posts li {
-  list-style-type: none;
 }
 
 //PAGE-CONTENT
@@ -202,10 +179,10 @@ img.icon-flag {
   margin: 0 1em 0 0;
   float: left;
   border: 0;
-  box-shadow: 2px 2px 2px  lighten(#abd3c8, 15%);
+  box-shadow: 2px 2px 2px lighten(#abd3c8, 15%);
 }
 
-//ARCHIVE sectie
+//ARRCHIVE sectie
 main#archive {
   width: 100%;
   height: 100%;
@@ -213,7 +190,7 @@ main#archive {
   flex-wrap: wrap;
 }
 
-main#archive.archive-box {
+main#archive .archive-box {
   width: 50vw;
   height: auto;
   flex: 1 1 400px;
@@ -231,14 +208,15 @@ main#archive.archive-box {
 }
 
 @media screen and (max-width: 800px) {
-  main#archive.archive-box {
+  main#archive .archive-box {
     h4 {
       text-decoration: overline;
       color: $brand-color;
     }
-     h4,
-     h5,
-     ul {
+
+    h4,
+    h5,
+    ul {
       margin: 0 0 1em 10%;
       transform: translateX(0%);
     }
@@ -269,8 +247,9 @@ div.pagination {
   .page_number,
   .previous {
     font-size: 80%;
-    margin: 0.2em;
+    margin: 1em;
     padding: 5px;
+    display: block;
   }
 }
 
@@ -280,8 +259,8 @@ ul.bottom-post-nav {
 }
 
 ul li.bottom-nav-post {
-  width: 45%;
-  margin: 0 auto 0.5em;
+  width: 40%;
+  margin: 0 auto 1em;
   list-style-type: none;
   text-align: center;
   border: 1px solid $secondary-color;
@@ -291,9 +270,9 @@ ul li.bottom-nav-post {
     border: none;
     box-shadow: 0 0 0;
     display: block;
-    font-size: 110%;
+    font-size: 100%;
     span {
-      font-size: 130%;
+      font-size: 110%;
       font-weight: 700;
     }
   }
@@ -344,7 +323,7 @@ h3.portfolio-header {
 
 @media screen and (max-width: 800px) {
   h3.portfolio-header {
-    margin: $spacing-unit * 1.5  auto $spacing-unit $spacing-unit;
+    margin: $spacing-unit * 1.5 auto $spacing-unit $spacing-unit;
   }
 }
 
@@ -393,9 +372,9 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding-bottom: 30px;
   background-color: $secondary-color;
   width: 100%;
+  padding-bottom: 30px;
 }
 
 .footer-box {
