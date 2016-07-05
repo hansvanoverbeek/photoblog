@@ -713,6 +713,18 @@ input#submit {
   color: #7c3cac
 }
 
+@media screen and (max-width: 1000px) {
+  input#submit {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  input#submit {
+    width: 60%;
+  }
+}
+
 input#submit:hover,
 input#submit:focus {
   background-color: #ddc8ec;
