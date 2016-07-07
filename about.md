@@ -3,6 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 description: Mijn opvatting over fotografie. My artist statement about photography.
+images_path: /images/
 ---
 
 Fotografie is:
@@ -21,9 +22,9 @@ Sinds ik met fotografie bezig ben is dit allemaal aan de orde en ik geniet er va
 
 Destijds startte ik met traditionele expressievormen. Schilderen en grafiek. Werken met textuur in collages vulde het later aan. De opgebouwde kennis en ervaring gebruik ik opnieuw in mijn digitale werk. Fotograferen en fotomanipulatie zijn momenteel mijn belangrijkste expressiemiddelen.
 
-Ik woon en werk in Maassluis.
+Ik woon en werk in Maassluis
 
-Samen met fotovrienden participeer in een collaborative blog. Wat we maandelijks met elkaar maken kunt u [hier](https://12months12pictures.wordpress.com/) zien.
+Samen met fotovrienden participeer in een collaborative blog. Wat we met elkaar maken kunt u [hier](https://12months12pictures.wordpress.com/) zien.
 
 <hr>
 
@@ -45,5 +46,8 @@ At the time I started with traditional forms of expression. Painting and graphic
 
 I am a Dutch based photographer and living and working in Maassluis.
 
-Along with photofriends I participate in a collaborative blog.  What we monthly create you can see [here](https://12months12pictures.wordpress.com/).
+Along with photofriends I participate in a collaborative blog.  What we monthly create you can see [here](https//12months12pictures.wordpress.com/).
 
+<br><br>
+
+{% include searchform.html %}

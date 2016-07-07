@@ -1,5 +1,4 @@
 GEM
-  remote: https://rubygems.org/
   specs:
     colorator (0.1)
     ffi (1.9.12-x64-mingw32)

@@ -13,3 +13,5 @@ Foto genomen met een 200mm lens. 1/13, f36 en ISO 100. Ontwikkeld in Lightroom.
 The Sea Princess visited Rotterdam on 25 June 2016. For this one day visit passengers had a cloudy day, that later became sunny. At the end of the day even very bright. Here she is at Hoek van Holland, and then almost sea.  Photo taken with a 200 mm lens. 1/13, f36 and ISO 100. Developed in Lightroom.
 <br><br> 
 [Scheepsinformatie](https://en.wikipedia.org/wiki/Sea_Princess)
+
+{% include share-page.html %}

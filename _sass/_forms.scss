@@ -42,14 +42,14 @@ input#submit {
   color: lighten($brand-color, 10%);
 }
 
-@media screen and (max-width: 1000px) {
-  input#submit {
+@media screen and(max-width: 1000px) {
+  input#submit{
     width: 30%;
   }
 }
 
-@media screen and (max-width: 460px) {
-  input#submit {
+@media screen and(max-width: 460px) {
+  input#submit{
     width: 60%;
   }
 }
@@ -58,4 +58,37 @@ input#submit:hover,
 input#submit:focus {
   background-color: lighten($brand-color, 50%);
   color: $text-color;
+}
+
+//SEARCH form
+
+.search {
+	width: 50%;
+	margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+
+input#search {
+  width: 60%;
+  height: 2.5em;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid $brand-color;
+  background-color: $secondary-color;
+}
+
+ul#search-results {
+  margin: 0 auto;
+}
+
+ul#search-results li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 800px) {
+   .search {
+    width: 70%;
+    padding-top: 30px
+  }
 }
