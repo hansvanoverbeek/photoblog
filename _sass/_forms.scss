@@ -43,13 +43,13 @@ input#submit {
 }
 
 @media screen and(max-width: 1000px) {
-  input#submit{
+  input#submit {
     width: 30%;
   }
 }
 
 @media screen and(max-width: 460px) {
-  input#submit{
+  input#submit {
     width: 60%;
   }
 }
@@ -63,11 +63,10 @@ input#submit:focus {
 //SEARCH form
 
 .search {
-	width: 50%;
-	margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
   padding-bottom: 60px;
 }
-
 
 input#search {
   width: 60%;
@@ -87,8 +86,8 @@ ul#search-results li {
 }
 
 @media screen and (max-width: 800px) {
-   .search {
+  .search {
     width: 70%;
-    padding-top: 30px
+    padding-top: 30px;
   }
 }
