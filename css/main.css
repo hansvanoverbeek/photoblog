@@ -269,6 +269,7 @@ section.post p,
 section.post img {
   margin: 1em auto;
   width: 100%;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 800px) {
