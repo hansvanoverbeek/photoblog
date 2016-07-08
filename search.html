@@ -14,9 +14,9 @@ layout: search
     {% for post in site.posts %}
       "{{site.baseurl}}/{{ post.url | slugify }}": {
         "title": "{{site.baseurl}}/{{ post.title | xml_escape }}",
-        "category": "{{ post.category | xml_escape }}",
-        "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ post.url | xml_escape }}"
+        "category": "{{site.baseurl}}/{{ post.category | xml_escape }}",
+        "content": {{site.baseurl}}/{{ post.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{site.baseurl}}/{{ post.url | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
