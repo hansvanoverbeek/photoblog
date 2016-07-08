@@ -1,14 +1,22 @@
 ---
 layout: search
 ---
+<<<<<<< HEAD
 {% include searchform.html %}
+=======
+<form action="/search" method="get">
+  <label for="search-box">Zoeken | Search</label>
+  <input type="text" id="search-box" name="query">
+  <input id="search" type="submit" value="Zoeken | Search">
+</form>
+>>>>>>> fb0099b98e4066b49928bcdf141051cb65dedd2c
 
 <ul id="search-results"></ul>
 
 <script>
   window.store = {
     {% for post in site.posts %}
-      "{{ post.url | slugify }}": {
+     "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
