@@ -11,8 +11,8 @@ layout: search
 
 <script>
   window.store = {
-    {% for post in paginator.posts %}
-     "{{ post.url | slugify }}": {
+    {% for post in site.posts %}
+     "{{ post.url | prepend: site.baseurl | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
