@@ -16,6 +16,7 @@ description: De portfolio pagina bevat links naar galeries die mijn belangrijkst
    </p>
 
    <hr>
+   
    {% for item in site.themas %}
 
     <li>
