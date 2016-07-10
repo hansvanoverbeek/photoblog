@@ -1,12 +1,12 @@
 
 a.current {
-    background-color: lighten($secondary-color, 5%);
-    color: lighten($tertiary-color, 50%);
+  background-color: lighten($secondary-color, 5%);
+  color: lighten($tertiary-color, 50%);
   padding: $spacing-unit / 10 $spacing-unit / 5;
-    &:hover {
-        opacity: 0.5;
-        color: $link-hover-color;
-    }
+  &:hover {
+    opacity: 0.5;
+    color: $link-hover-color;
+  }
 }
 
 .text-center {
@@ -49,20 +49,26 @@ p.plain-link a {
 //Sharing buttons voor social media onder de posts
 
 .share-page {
-    text-align: center;
-    background: $secondary-color;
-    color: $brand-color;
-    padding: 8px 15px;
-    border-radius: 5px;
-    margin: $spacing-unit 0;
+  text-align: center;
+  background: $secondary-color;
+  color: $brand-color;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: $spacing-unit 0;
 
-    a {
-        font-weight: 700;
-        color: #fff;
-        margin-left: 10px;
+  a {
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
 
-        &:hover {
-            border-bottom: 1px dashed #fff;
-        }
+    &:hover {
+      border-bottom: 1px dashed #fff;
     }
+  }
+}
+
+.highlight {
+  background-color: lighten($secondary-color, 16%);
+  padding: 6px;
+  border-radius: 5px;
 }

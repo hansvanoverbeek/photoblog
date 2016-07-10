@@ -24,7 +24,9 @@ Destijds startte ik met traditionele expressievormen. Schilderen en grafiek. Wer
 
 Ik woon en werk in Maassluis
 
-Samen met fotovrienden participeer in een collaborative blog. Wat we met elkaar maken kunt u [hier](https://12months12pictures.wordpress.com/) zien.
+<p class="highlight">
+Samen met fotovrienden participeer in een collaborative blog. Wat we met elkaar maken kunt u <a href="https://12months12pictures.wordpress.com/">hier</a> zien.
+</p>
 
 <hr>
 
@@ -46,6 +48,8 @@ At the time I started with traditional forms of expression. Painting and graphic
 
 I am a Dutch based photographer and living and working in Maassluis.
 
-Along with photofriends I participate in a collaborative blog.  What we monthly create you can see [here](https//12months12pictures.wordpress.com/).
+<p class="highlight">
+Along with photofriends I participate in a collaborative blog.  What we monthly create you can see<a href="https://12months12pictures.wordpress.com/">here</a>.
+</p>
 
 <br><br>
