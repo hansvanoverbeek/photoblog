@@ -262,10 +262,15 @@ section.post {
   margin: 30px auto 90px;
 }
 
-section.post p,
-section.post img {
-  margin: 1em auto;
-  width: 100%;
+section.post {
+  width: 70%;
+  max-width: 45em;
+  margin: $spacing-unit auto $spacing-unit * 3 auto;
+  p,
+  img {
+    margin: 1em auto;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 800px) {
