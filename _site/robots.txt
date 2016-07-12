@@ -1,6 +1,0 @@
-User-agent: *
-
-Disallow: /.sass-cache
-Disallow: /node_modules
-Disallow: /README.md
-Disallow: _config.yml
