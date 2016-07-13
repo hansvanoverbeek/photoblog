@@ -13,7 +13,7 @@ layout: search
 <script>
   window.store = {
     {% for post in site.posts %}
-     "{{ site.baseurl }}{{ post.url | slugify }}": {
+     "{{ site.baseurl }}/{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
