@@ -14,9 +14,9 @@ layout: search
   window.store = {
     {% for post in site.posts %}
      "{{ site.github.url }}/{{ post.url | slugify }}": {
-        "title": "{{ site.github.url }}/{{ post.title | xml_escape }}",
-        "category": "{{ site.github.url }}/{{ post.category | xml_escape }}",
-        "content": {{ site.github.url }}/{{ post.content | strip_html | strip_newlines | jsonify }},
+        "title": "{{ post.title | xml_escape }}",
+        "category": "{{ post.category | xml_escape }}",
+        "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ site.github.url }}{{ post.url | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
