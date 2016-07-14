@@ -13,11 +13,11 @@ layout: search
 <script>
   window.store = {
     {% for post in site.posts %}
-     "{{site.url}}{{ site.github.url }}/{{ post.url | slugify }}": {
+     "{{ site.github.url }}/{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ site.url }}{{ site.github.url }}{{ post.url | xml_escape }}"
+        "url": "{{ site.github.url }}{{ post.url | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
