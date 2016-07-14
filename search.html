@@ -12,7 +12,7 @@ layout: search
 
 <script>
   window.store = {
-    {% for post in site.posts %}
+    {% for post in site.github.posts %}
      "{{ site.github.url }}/{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
