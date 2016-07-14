@@ -12,7 +12,7 @@ layout: search
 
 <script>
   window.store = {
-    {% for post in site.posts %}
+    {% for post in site.posts | prepend: site.baseurl %}
      "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
