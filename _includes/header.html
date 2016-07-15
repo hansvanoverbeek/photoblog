@@ -1,8 +1,8 @@
-<header class="nav-header">
+<header class="nav-header" role="banner">
 
   <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-  <nav>
+  <nav role="navigation">
     <ul class="{{ include.navclass }}">
       <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">home</a></li>
       <li><a href="{{site.baseurl}}/portfolio" class="{% if page.url == '/portfolio/' %}current{% endif %}">portfolio</a></li>
@@ -14,7 +14,7 @@
 
 </header>
 
-<nav id="mobile-nav">
+<nav id="mobile-nav" role="navigation">
   <header>
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
@@ -22,7 +22,7 @@
       <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">home</a></li>
       <li><a href="{{site.baseurl}}/portfolio" class="{% if page.url == '/portfolio/' %}current{% endif %}">portfolio</a></li>
       <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}current{% endif %}">about</a></li>
-      <li><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">contact</a></li>      
+      <li><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">contact</a></li>
        <li><a href="{{site.baseurl}}/archive" class="{% if page.url == '/archive/' %}current{% endif %}">archive</a></li>
     </ul>
 
