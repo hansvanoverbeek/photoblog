@@ -7,7 +7,7 @@ permalink: /contact/
 
 <main>
  <h3>Your message is welcome</h3>
-  <form action="https://formspree.io/havov@live.nl" method="POST">
+  <form action="https://formspree.io/havov@live.nl" method="POST" role="form">
     <fieldset>
       <label>Enter your Name:</label>
       <input type="text" name="name">
