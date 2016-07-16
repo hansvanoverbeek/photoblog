@@ -1,8 +1,8 @@
-<header class="nav-header" role="banner">
+<header class="nav-header">
 
   <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-  <nav role="navigation">
+  <nav>
     <ul class="{{ include.navclass }}">
       <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">home</a></li>
       <li><a href="{{site.baseurl}}/portfolio" class="{% if page.url == '/portfolio/' %}current{% endif %}">portfolio</a></li>
@@ -14,7 +14,7 @@
 
 </header>
 
-<nav id="mobile-nav" role="navigation">
+<nav id="mobile-nav">
   <header>
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
