@@ -15,6 +15,7 @@ layout: search
     {% for post in site.posts %}
      "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
+        "date": "{{ post.date }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ site.github.url }}{{ post.url | xml_escape }}"
