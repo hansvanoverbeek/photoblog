@@ -4,7 +4,8 @@ title: Fantasie
 description: In deze galerie digitale fotocomposities met een surrealistische betekenis. In this gallery digital composites with surrealistic content. Photoshop composities / composites.
 image_path: /themas/fantasie.jpg
 ---
- 
+ <section class="gallery-container">
+
   <a href="../fantasie/image-1.jpg"  data-lightbox="fantasie" data-title="Desolaat">
     <img src="../fantasie/thumb-1.jpg" alt="Desolaat">
   </a>
