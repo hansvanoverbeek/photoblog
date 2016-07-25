@@ -13,11 +13,11 @@ layout: default
             <h4>{{post.title}}</h4> {{post.date | date_to_long_string}}
             <br>
             <br> {{post.content | truncatewords: 30}}
-            <li class="text-right">
-                <a href="{{site.baseurl}}{{ post.url }}">Read more ...</a>
+              <li class="text-right">
+                  <a href="{{site.baseurl}}{{ post.url }}">Read more ...</a>
+              </li>
             </li>
-            </li>
-            {% endfor %}
+          {% endfor %}
     </ul>
 
     <!-- Pagination links -->
@@ -31,4 +31,8 @@ layout: default
 </main>
 
 
-{% include searchform.html %}
+<form action="https://hansvanoverbeek.github.io/photoblog/search/" method="get">
+		<label class="text-center" for="search-box">Zoeken | Search</label>
+		<input type="text" id="search-box" name="query">
+		<input id="search" type="submit" value="search">
+	</form>
