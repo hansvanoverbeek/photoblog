@@ -31,8 +31,11 @@ layout: default
 </main>
 
 
-<form action="https://hansvanoverbeek.github.io/photoblog/search/" method="get">
+<form action="/search/" method="get">
 		<label class="text-center" for="search-box">Zoeken | Search</label>
 		<input type="text" id="search-box" name="query">
 		<input id="search" type="submit" value="search">
 	</form>
+
+  <script src="/js/lunr.min.js"></script>
+  <script src="/js/search.js"></script>
