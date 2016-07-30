@@ -34,7 +34,7 @@ input#text[type=textarea] {
 input#submit {
   margin-top: 1.25em;
   display: block;
-  width: 20%;
+  width: 30%;
   padding: $spacing-unit / 2;
   border-radius: 6px;
   line-height: 20%;
@@ -43,14 +43,14 @@ input#submit {
 }
 
 @media screen and(max-width: 1000px) {
-  input#submit {
-    width: 30%;
+  input#submit{
+    width: 50%;
   }
 }
 
 @media screen and(max-width: 460px) {
-  input#submit {
-    width: 60%;
+  input#submit{
+    width: 100%;
   }
 }
 
