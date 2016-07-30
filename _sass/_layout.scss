@@ -149,7 +149,7 @@ section.post {
     }
 }
 
-section.post p img {
+section.post p > img {
   img {
     margin: 1em auto;
     width: 100%;
