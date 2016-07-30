@@ -794,6 +794,7 @@ input#search {
 
 ul#search-results {
   margin: 0 auto;
+  width: 80%;
 }
 
 ul#search-results li {
