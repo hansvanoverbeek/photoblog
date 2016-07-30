@@ -13,35 +13,35 @@ permalink: /archive/
 
      <h4>Categorie&euml;n</h4>
 
-     <h5>Landschap</h5>
+     <h5>Landschap | <span>Landscape</span></h5>
       <ul>
         {% for item in site.categories.landschap %}
          <li><span >{{ item.date | date: "%d/%m/%Y" }}&nbsp;&nbsp;</span><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>  
         {% endfor %}     
       </ul>    
 
-      <h5>Schepen</h5>
+      <h5>Schepen | <span>Ships</span></h5>
       <ul>
         {% for item in site.categories.schepen %}
          <li><span >{{ item.date | date: "%d/%m/%Y" }}&nbsp;&nbsp;</span><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>  
         {% endfor %}     
       </ul>
 
-      <h5>Planten</h5>
+    <h5>Planten | <span>Plants</span></h5>
       <ul>
         {% for item in site.categories.planten %}
          <li><span >{{ item.date | date: "%d/%m/%Y" }}&nbsp;&nbsp;</span><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>  
         {% endfor %}     
       </ul>
 
-      <h5>Stadsgezicht</h5>
+    <h5>Stadsgezicht | <span>City</span></h5>
       <ul>
         {% for item in site.categories.stadsgezicht %}
          <li><span >{{ item.date | date: "%d/%m/%Y" }}&nbsp;&nbsp;</span><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>  
         {% endfor %}     
       </ul>
 
-      <h5>Diverse</h5>
+      <h5>Diverse | <span>Misc</span></h5>
       <ul>
         {% for item in site.categories.diverse %}
          <li><span >{{ item.date | date: "%d/%m/%Y" }}&nbsp;&nbsp;</span><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>  

@@ -66,6 +66,12 @@ h5 {
   font-size: 1.125em;
 }
 
+h5 span {
+  opacity: 0.8;
+  color: lighten($text-color, 20%);
+  font-size: 0.9em;
+}
+
 .font_small,
 small {
   font-size: 0.707em;
