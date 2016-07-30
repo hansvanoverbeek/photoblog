@@ -62,7 +62,7 @@ input#submit:focus {
 
 //SEARCH form
 
-.search {
+form.search {
   width: 50%;
   margin: 0 auto;
   padding-bottom: 60px;
@@ -86,7 +86,7 @@ ul#search-results li {
 }
 
 @media screen and (max-width: 800px) {
-  .search {
+  form.search {
     width: 70%;
     padding-top: 30px;
   }
