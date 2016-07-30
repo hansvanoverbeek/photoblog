@@ -68,6 +68,13 @@ form.search {
   padding-bottom: 60px;
 }
 
+@media screen and (max-width: 800px) {
+  form.search {
+    width: 70%;
+    padding-top: 30px;
+  }
+}
+
 input#search {
   width: 60%;
   height: 2.5em;
@@ -77,17 +84,12 @@ input#search {
   background-color: $secondary-color;
 }
 
+//SEARCH results
 ul#search-results {
   margin: 0 auto;
+  width: 80%;
 }
 
 ul#search-results li {
   list-style-type: none;
-}
-
-@media screen and (max-width: 800px) {
-  form.search {
-    width: 70%;
-    padding-top: 30px;
-  }
 }
