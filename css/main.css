@@ -333,8 +333,7 @@ main#archive .archive-box h4,
 main#archive .archive-box h5,
 main#archive .archive-box ul {
   list-style-type: none;
-  margin: 0 0 1.5em 50%;
-  transform: translateX(-50%);
+  margin: 0 0 1.5em 20%;
 }
 
 main#archive .archive-box li a {
@@ -350,7 +349,6 @@ main#archive .archive-box li a {
   main#archive .archive-box h5,
   main#archive .archive-box ul {
     margin: 0 0 1em 10%;
-    transform: translateX(0%);
   }
 }
 
