@@ -23,7 +23,7 @@ permalink: /archive/
        <ul>
          {% endif %}
          {% endunless %}
-         <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>
+         <li><time>{{ post.date |  date: "%d/%m" }}</time>&nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
      {% endfor %}
      </ul>
  </div>
