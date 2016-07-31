@@ -1,6 +1,6 @@
 ---
 layout: post
-title: De Koningsdam wordt gedoopt in Rotterdam
+title: De Koningsdam wordt gedoopt
 category: schepen
 ---
 
