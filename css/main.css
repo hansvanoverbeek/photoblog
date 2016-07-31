@@ -323,7 +323,7 @@ main#archive {
 }
 
 main#archive .archive-box {
-  width:33.333vw;
+  width: 33.333vw;
   height: auto;
   flex: 1 1 400px;
   margin-bottom: 2em;
@@ -661,6 +661,10 @@ a.current:hover {
 
 .text-right {
   text-align: right;
+}
+
+.text-smaller {
+  font-size: 80%;
 }
 
 .justify {
