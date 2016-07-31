@@ -7,6 +7,8 @@ permalink: /archive/
 
  <h3 class="text-center">Blog Archief</h3>
 
+ <hr>
+
  <main id="archive">
 
  <div class="archive-box">
