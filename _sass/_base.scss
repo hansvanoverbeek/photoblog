@@ -112,7 +112,7 @@ a {
 main {
   clear: both;
   width: 60%;
-  margin: $spacing-unit auto $spacing-unit * 3 auto;
+  margin: 0 auto $spacing-unit * 3 auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -121,6 +121,14 @@ main {
     margin: 0 auto;
     font-size: 0.9em;
   }
+}
+
+section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto $spacing-unit;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 //CLEARFIX

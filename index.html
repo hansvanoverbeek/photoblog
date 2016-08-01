@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
+<main>
 
- <main>
+  <div class="rss-feed">
+       <a href="https://hansvanoverbeek.github.io/photoblog/feed.xml">
+         <img id="feed" src="{{ site.github.url }}/images/rss.svg">
+       </a>
+    </div>
+
  {% if {{page.url == '/'}} %}
    {% include intro.html %}
   {% endif %}

@@ -15,6 +15,7 @@ url: "https://hansvanoverbeek.github.io" # the base hostname & protocol for your
 twitter_username: Hans van Overbeek
 github_username:  hansvanoverbeek
 permalink: pretty
+encoding: UTF-8
 
 collections:
  themas:

@@ -136,6 +136,29 @@ section.hero-img h2 {
   text-shadow: 2px 2px 4px $background-color;
 }
 
+div.rss-feed {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: $spacing-unit 0 0;
+  float: right;
+   overflow: hidden;
+}
+
+div.rss-feed a {
+  padding: 0;
+  display: block;
+  border: 0;
+   img#feed {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 0 0;
+    border: 0;
+  }
+}
+
 ul#paginator-posts li {
   list-style-type: none;
 }
