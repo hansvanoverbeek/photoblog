@@ -13,8 +13,8 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.github.url }}/photoblog/{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.github.url }}/photoblog/{{ post.url }}</guid>
+        <link>{{ site.github.url }}photoblog/{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.github.url }}photoblog/{{ post.url }}</guid>
       </item>
     {% endfor %}
   </channel>
