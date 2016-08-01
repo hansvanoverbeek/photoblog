@@ -258,6 +258,30 @@ section.hero-img h2 {
   text-shadow: 2px 2px 4px #f8f6ef;
 }
 
+div.rss-feed {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 30px 0 0;
+  float: right;
+  overflow: hidden;
+}
+
+div.rss-feed a {
+  padding: 0;
+  display: block;
+  border: 0;
+}
+
+div.rss-feed a img#feed {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 0 0;
+  border: 0;
+}
+
 ul#paginator-posts li {
   list-style-type: none;
 }
@@ -265,18 +289,13 @@ ul#paginator-posts li {
 section.post {
   width: 70%;
   max-width: 60em;
-  margin: 30px auto 90px;
+  margin: 30px auto 90px auto;
 }
 
-section.post {
-  width: 70%;
-  max-width: 60em;
-  margin: $spacing-unit auto $spacing-unit * 3 auto;
-  p img {
-    margin: 1em auto;
-    width: 100%;
-    padding-left: 0;
-  }
+section.post p,
+section.post img {
+  margin: 1em auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 800px) {
