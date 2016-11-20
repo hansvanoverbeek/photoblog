@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Industrieel landschap
-category:landschap
+category: landschap
 ---
 
 ![Industrie]({{ site.baseurl }}/images/avr.jpg)
