@@ -2,10 +2,14 @@
 layout: post
 title: Industrieel landschap
 <<<<<<< HEAD
+<<<<<<< HEAD
 category:landschap
 =======
 category: landschap
 >>>>>>> master
+=======
+category: landschap
+>>>>>>> 7a50cc919f7b6317bbd351dfb9cef15fed11d808
 ---
 
 ![Industrie]({{ site.baseurl }}/images/avr.jpg)
