@@ -23,7 +23,7 @@ collections:
 
 gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag, jekyll-minifier]
 
-paginate: 5
+paginate: 8
 paginate_path: "/blog/page:num"
 
 language_date: data.lang.%%
