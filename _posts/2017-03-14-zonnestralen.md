@@ -4,7 +4,7 @@ title: Zonnestralen
 category: landschap
 ---
 
-![Zonnestralen]({{ site.baseurl }}/images/zonnenstralen.jpg)
+![Zonnestralen]({{ site.baseurl }}/images/zonnestralen.jpg)
 
 Deze zonnestralen braken door een op bewolkte en grijze voorjaarsdag. Zodra ik ze zag verschijnen liep ik snel in de richting van de vijver en bepaalde de compositie in de zoeker en drukte af. Er ging geen tijd verloren en dat was maar goed ook, want achteraf bleek het om een heel kort moment van zonnige doorbraak te gaan. Het was, zoals wel gezegd wordt, het beslissende moment. De manier waarop deze stralen het landschap beroeren geeft mij het blije lentegevoel.
 
