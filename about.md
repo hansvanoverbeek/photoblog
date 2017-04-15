@@ -27,6 +27,10 @@ Ik woon en werk in Maassluis
 <p class="highlight">
 Samen met fotovrienden participeer in een collaborative blog. Wat we met elkaar maken kunt u <a href="https://12months12pictures.wordpress.com/">hier</a> zien.
 </p>
+<p class="highlight">
+U kunt mijn online wisselexpositie<a href="http://www.havov.nl">hier</a> zien.
+</p>
+
 
 <hr>
 
@@ -50,6 +54,9 @@ I am a Dutch based photographer and living and working in Maassluis.
 
 <p class="highlight">
 Along with photofriends I participate in a collaborative blog.  What we monthly create you can see<a href="https://12months12pictures.wordpress.com/">here</a>.
+</p>
+<p class="highlight">
+You can find my temporary exhibition online<a href="http://www.havov.nl">here</a>.
 </p>
 
 <br><br>
