@@ -43,10 +43,11 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.4.22)
+    sass (3.4.23)
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -57,6 +58,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap (~> 0.10.0)
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.12.5

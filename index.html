@@ -1,44 +1,40 @@
----
-layout: default
----
+--- layout: default ---
 <main>
 
   <div class="rss-feed">
-       <a href="https://hansvanoverbeek.github.io/photoblog/feed.xml">
-         <img id="feed" src="{{ site.github.url }}/images/rss.svg">
-       </a>
-    </div>
+    <a href="https://hansvanoverbeek.github.io/photoblog/feed.xml">
+      <img id="feed" src="{{ site.github.url }}/images/rss.svg">
+    </a>
+  </div>
 
- {% if page.url == '/' %}
-   {% include intro.html %}
-  {% endif %}
+  {% if page.url == '/' %} {% include intro.html %} {% endif %}
 
-    <ul id="paginator-posts">
-        {% for post in paginator.posts %}
-          <li class="text-left">
-            <h4>{{post.title}}</h4> {{post.date | date_to_long_string}}
-            <br>
-            <br> {{post.content | truncatewords: 30}}
-              <li class="text-right">
-                  <a href="{{site.baseurl}}{{ post.url }}">Lees verder&nbsp;|&nbsp;<span class="text-smaller">Read more</span> ...</a>
-              </li>
-            </li>
-          {% endfor %}
-    </ul>
+  <ul id="paginator-posts">
+    {% for post in paginator.posts %}
+    <li class="text-left">
+      <h4>{{post.title}}</h4> {{post.date | date_to_long_string}}
+      <br>
+      <br> {{post.content | truncatewords: 30}}
+      <li class="text-right">
+        <a href="{{site.baseurl}}{{ post.url }}">Lees verder&nbsp;|&nbsp;<span class="text-smaller">Read more</span> ...</a>
+      </li>
+    </li>
+    {% endfor %}
+  </ul>
 
-    <!-- Pagination links -->
-    <div class="pagination text-center">
-        {% if paginator.previous_page %}
-        <a href="{{ site.baseurl }}/{{ paginator.previous_page_path }}" class="previous">Previous</a> {% else %}
-        <span class="previous">Previous</span> {% endif %}
-        <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> {% if paginator.next_page %}
-        <a href="{{ site.baseurl }}/{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
-        <span class="next ">Next</span> {% endif %}
+  <!-- Pagination links -->
+  <div class="pagination text-center">
+    {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}/{{ paginator.previous_page_path }}" class="previous">Previous</a> {% else %}
+    <span class="previous">Previous</span> {% endif %}
+    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}/{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
+    <span class="next ">Next</span> {% endif %}
 </main>
 
 
 <form action="{{ site.github.url }}/search/" method="get" class="search">
-		<label for="search-box" class="text-center">Zoeken | Search</label>
-		<input type="text" id="search-box" name="query">
-		<input id="search" type="submit" value="search">
-	</form>
+  <label for="search-box" class="text-center">Zoeken | Search</label>
+  <input type="text" id="search-box" name="query">
+  <input id="search" type="submit" value="search">
+</form>
