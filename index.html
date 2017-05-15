@@ -7,7 +7,7 @@
     </a>
   </div>
 
-  {% if page.url == '/' %} {% include intro.html %} {% endif %}
+  {% if page.url == '{{ site.baseurl }}/index.html' %} {% include intro.html %} {% endif %}
 
   <ul id="paginator-posts">
     {% for post in paginator.posts %}
