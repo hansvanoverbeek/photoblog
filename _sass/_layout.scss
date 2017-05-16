@@ -136,6 +136,16 @@ section.hero-img h2 {
   text-shadow: 2px 2px 4px $background-color;
 }
 
+main div.btn-to-site {
+    width: auto;
+    height: 20px;
+    padding: $spacing-unit 0 $spacing-unit $spacing-unit;
+    float: left;
+    a {
+        display: inline-block;
+    }
+}
+
 div.rss-feed {
   width: 20px;
   height: 20px;
