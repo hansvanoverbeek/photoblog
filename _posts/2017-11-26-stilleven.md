@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stilleven op het aanrecht
-category:diverse
+category: diverse
 ---
 
 ![Stilleven]({{ site.baseurl }}/images/stilleven.jpg)
@@ -11,7 +11,5 @@ Er zijn dagen dat, het vanwege het weer, beter is om binnen te fotograferen. Een
 Genomen met een Samsung Galaxy S7
 
 There are days whenit is better to photograph indoors, due to the weather. A still life is then a suitable subject. Generally speaking I do not make many of them, but when I am working on it, it gives me a lot of satisfaction. The selection of composition and lighting is always a fun task. Then of course the post-processing in the computer. For this photo I made my setup in front of the kitchen window on the kitchen counter.
-
-
 
 {% include share-page.html %}
