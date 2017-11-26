@@ -1,18 +1,13 @@
----
-layout: default
----
+--- layout: default ---
 <main>
 
-  <div class="btn-to-site">
-        <a href="http://www.havov.nl">My other online gallery</a>
-    </div>
-     <div class="rss-feed">
-         <a href="feed.xml">
+  <div class="rss-feed">
+    <a href="feed.xml">
              <img id="feed" src="{{ site.baseurl }}/images/rss.svg" alt="icon rss">
          </a>
-     </div>
+  </div>
 
- {% if page.url == '/' %} {% include intro.html %} {% endif %}
+  {% if page.url == '/' %} {% include intro.html %} {% endif %}
 
   <ul id="paginator-posts">
     {% for post in paginator.posts %}
