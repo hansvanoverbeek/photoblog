@@ -6,7 +6,7 @@ category: diverse
 
 ![Stilleven]({{ site.baseurl }}/images/stilleven.jpg)
 
-Er zijn dagen dat, het vanwege het weer, beter is om binnen te fotograferen. Een stilleven is dan een geschikt onderwerp. Over het geheel genomen maak ik er weinig, maar als ik er mee bezig ben verschaft het mij veel plezier. Het uitkienen van de compositie en belichting is altijd weer een leuke opgave. Daarna natuurlijk de nabewerkng in de computeer. Voor deze foto maakte ik mijn opstelling voor het keukenraam op het aanrecht.
+Er zijn dagen dat het, vanwege het weer, beter is om binnen te fotograferen. Een stilleven is dan een geschikt onderwerp. Over het geheel genomen maak ik er weinig, maar als ik er mee bezig ben verschaft het mij veel plezier. Het uitkienen van de compositie en belichting is altijd weer een leuke opgave. Daarna natuurlijk de nabewerkng in de computeer. Voor deze foto maakte ik mijn opstelling voor het keukenraam op het aanrecht.
 
 Genomen met een Samsung Galaxy S7
 
